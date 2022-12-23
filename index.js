@@ -1,3 +1,5 @@
+const db = require('./queries')
+
 const { request } = require('express');
 const express = require('express'); //allows me to use it
 const path    = require('path');
